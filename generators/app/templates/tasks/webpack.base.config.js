@@ -24,7 +24,7 @@
           loader: ExtractTextPlugin.extract('css?sourceMap')
         },
         {
-          test: /\.(eot|ttf|woff)$/,
+          test: /\.(eot|svg|ttf|woff|woff2)(\?.+)?$/,
           loader: 'url?limit=100000'
         },
         {
